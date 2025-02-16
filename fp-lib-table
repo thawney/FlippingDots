@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "FootprintsLibrary")(type "KiCad")(uri "${KIPRJMOD}/FootprintsLibrary.pretty")(options "")(descr ""))
+  (lib (name "dot_flipper")(type "KiCad")(uri "${KIPRJMOD}/dot_flipper.pretty")(options "")(descr ""))
+)
