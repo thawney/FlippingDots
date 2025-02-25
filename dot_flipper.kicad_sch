@@ -2656,6 +2656,12 @@
 		(uuid "c13d95b1-13a9-42cb-bbc5-febf7ebb06e0")
 	)
 	(junction
+		(at 82.55 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb633fad-731c-40c7-a157-9f7351859961")
+	)
+	(junction
 		(at 279.4 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4559,6 +4565,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 144.78) (xy 82.55 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec3f5689-55c8-45a3-848c-f350ee128d83")
+	)
+	(wire
+		(pts
 			(xy 284.48 55.88) (xy 292.1 55.88)
 		)
 		(stroke
@@ -5189,17 +5205,6 @@
 		)
 		(uuid "22a69b6e-f8e3-4f64-91d8-9cc10a885031")
 	)
-	(label "SRCLK"
-		(at 105.41 139.7 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "246e0db4-b257-4e35-8955-3444fa1b82ac")
-	)
 	(label "SERIN"
 		(at 128.27 185.42 0)
 		(fields_autoplaced yes)
@@ -5343,17 +5348,6 @@
 		)
 		(uuid "70d1c030-524c-41e1-9487-98ff7a85ca04")
 	)
-	(label "SLEEP"
-		(at 127 139.7 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "728748b3-5ce5-457b-9c35-8cb107302aa1")
-	)
 	(label "nOE"
 		(at 95.25 261.62 180)
 		(fields_autoplaced yes)
@@ -5430,17 +5424,6 @@
 			(justify right bottom)
 		)
 		(uuid "868f107c-81bf-4e00-8dbb-8998e4b5d179")
-	)
-	(label "LATCH"
-		(at 116.84 139.7 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "87045150-96ef-445d-9b4d-0a103157fa01")
 	)
 	(label "SERIN"
 		(at 64.77 147.32 0)
@@ -5573,17 +5556,6 @@
 			(justify left bottom)
 		)
 		(uuid "cffee1a5-979a-4c11-a828-3ceaf0a82417")
-	)
-	(label "SERIN"
-		(at 105.41 152.4 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d4db364c-14b0-4525-aec7-01e1b896c3db")
 	)
 	(label "SERIN"
 		(at 48.26 82.55 0)
@@ -6642,7 +6614,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 92.71 111.76 0)
 			(effects
 				(font
@@ -6858,73 +6830,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 105.41 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "15e18e93-4234-4637-9136-77c780de2411")
-		(property "Reference" "TP2"
-			(at 107.95 135.1279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SRCLK"
-			(at 107.95 137.6679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 110.49 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 105.41 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4f1bbf96-c141-497d-9b49-8e2cdaf5d5d1")
-		)
-		(instances
-			(project "dot_flipper"
-				(path "/0bc58c06-a81b-4af2-a64d-012bfae59e89"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 297.18 361.95 0)
 		(unit 1)
@@ -6952,7 +6857,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 298.1452 365.76 0)
 			(effects
 				(font
@@ -7187,6 +7092,76 @@
 			(project "dot_flipper"
 				(path "/0bc58c06-a81b-4af2-a64d-012bfae59e89"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 88.9 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2452434f-0b56-407c-b990-c0444185b57c")
+		(property "Reference" "C16"
+			(at 92.71 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 92.71 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 89.8652 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 88.9 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2acaaf5-3c44-4367-8021-eaa8563545e5")
+		)
+		(pin "2"
+			(uuid "f649cecd-c7ff-43df-adc6-4746952562e6")
+		)
+		(instances
+			(project "dot_flipper"
+				(path "/0bc58c06-a81b-4af2-a64d-012bfae59e89"
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -7515,7 +7490,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 279.0952 365.76 0)
 			(effects
 				(font
@@ -7981,7 +7956,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 298.1452 46.99 0)
 			(effects
 				(font
@@ -8183,7 +8158,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 279.0952 46.99 0)
 			(effects
 				(font
@@ -8320,7 +8295,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 298.1452 259.08 0)
 			(effects
 				(font
@@ -8456,7 +8431,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 280.3652 100.33 0)
 			(effects
 				(font
@@ -8526,7 +8501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 279.0952 259.08 0)
 			(effects
 				(font
@@ -8596,7 +8571,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 84.7852 73.66 0)
 			(effects
 				(font
@@ -9231,72 +9206,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 137.16 152.4 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6352d434-dbc9-4e94-a139-c86638ff63e1")
-		(property "Reference" "#PWR021"
-			(at 137.16 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VM"
-			(at 138.684 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 137.16 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ebe8181-0fc3-42e4-b5ed-46a26f6937f7")
-		)
-		(instances
-			(project "dot_flipper"
-				(path "/0bc58c06-a81b-4af2-a64d-012bfae59e89"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 297.18 149.86 0)
 		(unit 1)
@@ -9324,7 +9233,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 298.1452 153.67 0)
 			(effects
 				(font
@@ -9698,72 +9607,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 127 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7128a690-9162-4760-8999-3661cce17387")
-		(property "Reference" "#PWR020"
-			(at 127 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 127 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b6e3e931-38a9-42f1-94a1-a2089e6201be")
-		)
-		(instances
-			(project "dot_flipper"
-				(path "/0bc58c06-a81b-4af2-a64d-012bfae59e89"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
 		(at 46.99 152.4 0)
 		(unit 1)
@@ -9823,72 +9666,6 @@
 			(project "dot_flipper"
 				(path "/0bc58c06-a81b-4af2-a64d-012bfae59e89"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 116.84 152.4 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "79a74b51-4924-4034-afaf-914b88d57c0b")
-		(property "Reference" "#PWR019"
-			(at 116.84 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 116.84 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 116.84 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7ed8ca7a-bf05-4fcf-a79f-632bfee6f625")
-		)
-		(instances
-			(project "dot_flipper"
-				(path "/0bc58c06-a81b-4af2-a64d-012bfae59e89"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -9988,7 +9765,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 299.4152 205.74 0)
 			(effects
 				(font
@@ -10447,73 +10224,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 105.41 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8704cd0d-7170-491e-81a5-493de904c291")
-		(property "Reference" "TP5"
-			(at 107.95 147.8279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SERIN"
-			(at 107.95 150.3679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 110.49 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 105.41 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "80b46f0f-62cb-48c3-8532-d016cffb4a02")
-		)
-		(instances
-			(project "dot_flipper"
-				(path "/0bc58c06-a81b-4af2-a64d-012bfae59e89"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 279.4 308.61 0)
 		(unit 1)
@@ -10541,7 +10251,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 280.3652 312.42 0)
 			(effects
 				(font
@@ -11620,73 +11330,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 127 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a8e8d13f-eede-4611-9ec0-99e9a5217db8")
-		(property "Reference" "TP4"
-			(at 129.54 135.1279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SLEEP"
-			(at 129.54 137.6679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 132.08 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 132.08 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 127 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bdf8c152-cdaf-4f87-bc57-6af9fe39819f")
-		)
-		(instances
-			(project "dot_flipper"
-				(path "/0bc58c06-a81b-4af2-a64d-012bfae59e89"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 278.13 259.08 0)
 		(unit 1)
@@ -11819,6 +11462,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 88.9 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae770859-2369-4075-ade9-47ce6997ace2")
+		(property "Reference" "#PWR021"
+			(at 88.9 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2541e6b-994a-4049-b30d-061e6941987e")
+		)
+		(instances
+			(project "dot_flipper"
+				(path "/0bc58c06-a81b-4af2-a64d-012bfae59e89"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 262.89 35.56 0)
 		(unit 1)
@@ -11879,73 +11588,6 @@
 			(project "dot_flipper"
 				(path "/0bc58c06-a81b-4af2-a64d-012bfae59e89"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 137.16 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b6db4b93-9fe7-4d5e-86b1-b23cb32c269d")
-		(property "Reference" "TP8"
-			(at 139.7 147.8279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 139.7 150.3679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 142.24 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 137.16 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6afe3bbf-22c1-4a9b-a7d0-f5e0cf6a8772")
-		)
-		(instances
-			(project "dot_flipper"
-				(path "/0bc58c06-a81b-4af2-a64d-012bfae59e89"
-					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -12222,73 +11864,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 127 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c62747f3-8593-4dcf-b5c7-3890b31f87da")
-		(property "Reference" "TP7"
-			(at 129.54 147.8279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 129.54 150.3679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 132.08 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 132.08 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 127 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "73f8a746-338a-4664-b2b5-102283f64dce")
-		)
-		(instances
-			(project "dot_flipper"
-				(path "/0bc58c06-a81b-4af2-a64d-012bfae59e89"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 269.24 342.9 0)
 		(unit 1)
@@ -12382,7 +11957,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1.5mm"
 			(at 92.71 314.96 0)
 			(effects
 				(font
@@ -12612,73 +12187,6 @@
 			(project "dot_flipper"
 				(path "/0bc58c06-a81b-4af2-a64d-012bfae59e89"
 					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 116.84 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d15d6d0c-7084-4f26-9ee8-89b88f8700fa")
-		(property "Reference" "TP3"
-			(at 119.38 135.1279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LATCH"
-			(at 119.38 137.6679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 121.92 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7106a96c-6f8b-4cf4-a054-4648b5eb8f62")
-		)
-		(instances
-			(project "dot_flipper"
-				(path "/0bc58c06-a81b-4af2-a64d-012bfae59e89"
-					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -12940,7 +12448,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 280.3652 205.74 0)
 			(effects
 				(font
@@ -13115,73 +12623,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 116.84 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da6bbed6-5f4c-4e5f-ba98-e8e2c72002af")
-		(property "Reference" "TP6"
-			(at 119.38 147.8279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VCC"
-			(at 119.38 150.3679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 121.92 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 116.84 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dca8634c-cfbd-49b8-b964-55daf2157966")
-		)
-		(instances
-			(project "dot_flipper"
-				(path "/0bc58c06-a81b-4af2-a64d-012bfae59e89"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 41.91 87.63 0)
 		(unit 1)
@@ -13341,7 +12782,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 299.4152 312.42 0)
 			(effects
 				(font
@@ -13506,7 +12947,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 299.4152 100.33 0)
 			(effects
 				(font
@@ -14374,7 +13815,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1.5mm"
 			(at 92.71 309.88 0)
 			(effects
 				(font
@@ -14438,7 +13879,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 279.0952 153.67 0)
 			(effects
 				(font
