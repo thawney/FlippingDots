@@ -1143,108 +1143,6 @@
 				)
 			)
 		)
-		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole with connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_Pad_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Power_Protection:CDSOT236-0504C"
 			(pin_names
 				(offset 0)
@@ -2607,7 +2505,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 260.35) (xy 121.92 260.35)
+			(xy 52.07 262.89) (xy 64.77 262.89)
 		)
 		(stroke
 			(width 0)
@@ -2624,6 +2522,16 @@
 			(type default)
 		)
 		(uuid "048c6084-38ec-4d67-b5a6-6b75be6e8d6c")
+	)
+	(wire
+		(pts
+			(xy 52.07 278.13) (xy 64.77 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0624924f-022f-411b-9b0a-f3ef441f9073")
 	)
 	(wire
 		(pts
@@ -2704,16 +2612,6 @@
 			(type default)
 		)
 		(uuid "0fe11af7-645d-43f5-be3d-bffd9af7cb29")
-	)
-	(wire
-		(pts
-			(xy 121.92 250.19) (xy 91.44 250.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11008e80-b2ab-4bc1-bca6-7e4e458e1595")
 	)
 	(wire
 		(pts
@@ -2804,16 +2702,6 @@
 			(type default)
 		)
 		(uuid "1d291b59-864e-4dff-9de1-01afc750a02a")
-	)
-	(wire
-		(pts
-			(xy 91.44 246.38) (xy 91.44 250.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d49c084-c23b-451c-9cf4-3078b3e0943d")
 	)
 	(wire
 		(pts
@@ -3217,7 +3105,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 257.81) (xy 109.22 257.81)
+			(xy 64.77 260.35) (xy 52.07 260.35)
 		)
 		(stroke
 			(width 0)
@@ -3277,16 +3165,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 262.89) (xy 111.76 266.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "523c6194-f5f6-4073-9f74-aaa2dec7d9a2")
-	)
-	(wire
-		(pts
 			(xy 284.48 73.66) (xy 292.1 73.66)
 		)
 		(stroke
@@ -3304,16 +3182,6 @@
 			(type default)
 		)
 		(uuid "55d7a35a-755d-42ed-a7d3-bfeae5a71b4e")
-	)
-	(wire
-		(pts
-			(xy 121.92 262.89) (xy 111.76 262.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56aa2788-059e-40b1-96cd-fc384a9d9d0e")
 	)
 	(wire
 		(pts
@@ -3374,6 +3242,16 @@
 			(type default)
 		)
 		(uuid "5a6dd902-2210-4c6c-9149-d58a6b0cf68e")
+	)
+	(wire
+		(pts
+			(xy 64.77 270.51) (xy 52.07 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b211b61-79c3-4bbb-8902-7d9cc20f9e18")
 	)
 	(wire
 		(pts
@@ -3767,7 +3645,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 252.73) (xy 109.22 252.73)
+			(xy 64.77 255.27) (xy 52.07 255.27)
 		)
 		(stroke
 			(width 0)
@@ -4267,6 +4145,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 273.05) (xy 52.07 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdca6d7d-779f-47f3-9c0a-e7698e1063cf")
+	)
+	(wire
+		(pts
 			(xy 247.65 279.4) (xy 257.81 279.4)
 		)
 		(stroke
@@ -4317,7 +4205,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 255.27) (xy 109.22 255.27)
+			(xy 64.77 257.81) (xy 52.07 257.81)
 		)
 		(stroke
 			(width 0)
@@ -4434,6 +4322,16 @@
 			(type default)
 		)
 		(uuid "ef2e4651-25cd-4d34-93b8-ac25dd686eae")
+	)
+	(wire
+		(pts
+			(xy 64.77 275.59) (xy 52.07 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef9efd90-88f7-423e-ab7f-ae0b4b027c37")
 	)
 	(wire
 		(pts
@@ -4942,7 +4840,7 @@
 		(uuid "e9c9ede8-f000-4ac8-a874-c921dc68c7ff")
 	)
 	(label "SRCLK"
-		(at 109.22 255.27 180)
+		(at 52.07 257.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4973,6 +4871,17 @@
 			(justify left bottom)
 		)
 		(uuid "10a4531b-a73b-4312-a42b-011ae7364b1d")
+	)
+	(label "SERIN"
+		(at 52.07 270.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "128242db-2408-4878-b736-9fd0c26c691a")
 	)
 	(label "SRCLK"
 		(at 48.26 87.63 0)
@@ -5062,6 +4971,17 @@
 		)
 		(uuid "4ebfd6f2-9aec-4a9f-8ca3-f2dd95afd855")
 	)
+	(label "SRCLK"
+		(at 52.07 273.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5c50ffef-afbb-4e7d-812a-9bf0a5b21930")
+	)
 	(label "OUT5"
 		(at 91.44 92.71 0)
 		(fields_autoplaced yes)
@@ -5118,7 +5038,7 @@
 		(uuid "6a766b6f-11c3-48de-9047-b54620756cca")
 	)
 	(label "nOE"
-		(at 109.22 260.35 180)
+		(at 52.07 262.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5127,6 +5047,17 @@
 			(justify right bottom)
 		)
 		(uuid "7468e2a5-85fe-4b27-8b87-56e4de1fc833")
+	)
+	(label "LATCH"
+		(at 52.07 275.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "79d9eb4a-5e72-457b-9855-2c5c89a4c541")
 	)
 	(label "LATCH"
 		(at 128.27 180.34 0)
@@ -5272,7 +5203,7 @@
 		(uuid "dc75d1f4-9937-42b8-8876-4c91174b9e0a")
 	)
 	(label "LATCH"
-		(at 109.22 257.81 180)
+		(at 52.07 260.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5304,6 +5235,17 @@
 		)
 		(uuid "e764c0b4-c5b0-4a99-8916-e725d9160059")
 	)
+	(label "nOE"
+		(at 52.07 278.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e82c9978-8f36-40c6-a35e-b7fb4a05927c")
+	)
 	(label "OUT4"
 		(at 212.09 223.52 0)
 		(fields_autoplaced yes)
@@ -5316,7 +5258,7 @@
 		(uuid "ee0489f3-e07f-49fe-ba3c-610d35768a9c")
 	)
 	(label "SEROUT"
-		(at 109.22 252.73 180)
+		(at 52.07 255.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6081,72 +6023,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 127 262.89 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0025f621-e398-4014-b070-17e0a856c4ad")
-		(property "Reference" "J12"
-			(at 137.414 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND_o"
-			(at 135.382 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
-			(at 127 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 127 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "441eebcf-7f41-4096-acf7-ee6dcc754fb5")
-		)
-		(instances
-			(project "dot_flipper"
-				(path "/0bc58c06-a81b-4af2-a64d-012bfae59e89"
-					(reference "J12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 82.55 140.97 0)
 		(unit 1)
@@ -6657,73 +6533,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 64.77 311.15 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1eddd77c-1b5c-469f-8c13-73d4c27b9bd5")
-		(property "Reference" "H2"
-			(at 67.31 308.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 67.31 311.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
-			(at 64.77 311.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.77 311.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 64.77 311.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "694a0587-e3e1-44d5-bbe6-45eeed055f48")
-		)
-		(instances
-			(project "dot_flipper"
-				(path "/0bc58c06-a81b-4af2-a64d-012bfae59e89"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
 		(at 46.99 154.94 0)
 		(unit 1)
@@ -6882,7 +6691,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 89.8652 152.4 0)
 			(effects
 				(font
@@ -7146,73 +6955,6 @@
 			(project "dot_flipper"
 				(path "/0bc58c06-a81b-4af2-a64d-012bfae59e89"
 					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 91.44 246.38 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27b1fa7e-0c5e-4a2e-acd2-a6a010ead2cd")
-		(property "Reference" "#PWR036"
-			(at 91.44 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 91.44 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 91.44 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e4050f7a-92d6-4c9f-ae4e-109a03867423")
-		)
-		(instances
-			(project "dot_flipper"
-				(path "/0bc58c06-a81b-4af2-a64d-012bfae59e89"
-					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -7822,6 +7564,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 69.85 273.05 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37f05ac0-bf21-40eb-aa2e-22e1a7449fad")
+		(property "Reference" "J12"
+			(at 80.264 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SRCLK_o"
+			(at 78.232 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Arans_Footprints:small_pad"
+			(at 69.85 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 69.85 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81beae7e-f0da-43f5-bc2d-54de8981c4a0")
+		)
+		(instances
+			(project "dot_flipper"
+				(path "/0bc58c06-a81b-4af2-a64d-012bfae59e89"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 269.24 130.81 0)
 		(unit 1)
@@ -8084,72 +7892,6 @@
 			(project "dot_flipper"
 				(path "/0bc58c06-a81b-4af2-a64d-012bfae59e89"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 64.77 313.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4332a250-f317-4d87-b67d-4ca9cde8e69d")
-		(property "Reference" "#PWR048"
-			(at 64.77 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 64.77 318.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.77 313.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 313.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 313.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "75e59d96-2ff8-4f6f-9952-f5914944d16b")
-		)
-		(instances
-			(project "dot_flipper"
-				(path "/0bc58c06-a81b-4af2-a64d-012bfae59e89"
-					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -10231,6 +9973,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 69.85 278.13 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83f17b09-300b-4b09-b898-5a236abf9ef0")
+		(property "Reference" "J14"
+			(at 80.264 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SLEEP_o"
+			(at 78.232 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Arans_Footprints:small_pad"
+			(at 69.85 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 69.85 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8b88ac0-2a41-425b-9ab4-c32c285dd922")
+		)
+		(instances
+			(project "dot_flipper"
+				(path "/0bc58c06-a81b-4af2-a64d-012bfae59e89"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Driver_Motor:DRV8837C")
 		(at 267.97 383.54 0)
 		(unit 1)
@@ -10718,7 +10526,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 127 255.27 0)
+		(at 69.85 257.81 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10727,7 +10535,7 @@
 		(dnp no)
 		(uuid "8c8917f8-533d-4f70-a4f3-41357477d948")
 		(property "Reference" "J9"
-			(at 137.414 255.27 0)
+			(at 80.264 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10735,7 +10543,7 @@
 			)
 		)
 		(property "Value" "SRCLK_o"
-			(at 135.382 255.27 0)
+			(at 78.232 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10743,8 +10551,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
-			(at 127 255.27 0)
+		(property "Footprint" "Arans_Footprints:small_pad"
+			(at 69.85 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10753,7 +10561,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 255.27 0)
+			(at 69.85 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10762,7 +10570,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 127 255.27 0)
+			(at 69.85 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10777,73 +10585,6 @@
 			(project "dot_flipper"
 				(path "/0bc58c06-a81b-4af2-a64d-012bfae59e89"
 					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 38.1 311.15 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f6054e7-0197-4808-b14f-f8eb23dc5005")
-		(property "Reference" "H1"
-			(at 40.64 308.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 40.64 311.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
-			(at 38.1 311.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 311.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 38.1 311.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6151dc63-eb76-4b2e-a90c-e5fcb0cfecf3")
-		)
-		(instances
-			(project ""
-				(path "/0bc58c06-a81b-4af2-a64d-012bfae59e89"
-					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -11173,7 +10914,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 127 257.81 0)
+		(at 69.85 260.35 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11182,7 +10923,7 @@
 		(dnp no)
 		(uuid "9737c91c-7095-43bd-81b3-48a33f32834d")
 		(property "Reference" "J10"
-			(at 137.414 257.81 0)
+			(at 80.264 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11190,7 +10931,7 @@
 			)
 		)
 		(property "Value" "LATCH_o"
-			(at 135.382 257.81 0)
+			(at 78.232 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11198,8 +10939,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
-			(at 127 257.81 0)
+		(property "Footprint" "Arans_Footprints:small_pad"
+			(at 69.85 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11208,7 +10949,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 257.81 0)
+			(at 69.85 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11217,7 +10958,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 127 257.81 0)
+			(at 69.85 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11341,6 +11082,72 @@
 			(project "dot_flipper"
 				(path "/0bc58c06-a81b-4af2-a64d-012bfae59e89"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 69.85 275.59 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a067e46-d206-44c2-bdbc-05ea28d4011f")
+		(property "Reference" "J13"
+			(at 80.264 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LATCH_o"
+			(at 78.232 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Arans_Footprints:small_pad"
+			(at 69.85 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 69.85 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d387def1-3010-40f1-bfbb-8821ba8477fe")
+		)
+		(instances
+			(project "dot_flipper"
+				(path "/0bc58c06-a81b-4af2-a64d-012bfae59e89"
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -12180,6 +11987,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 69.85 270.51 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba27eb93-ae13-4eb7-b9ab-5595f7333823")
+		(property "Reference" "J7"
+			(at 80.264 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SERIN"
+			(at 78.232 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Arans_Footprints:small_pad"
+			(at 69.85 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 69.85 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69cad8ec-2887-40b8-85a7-f105f523d102")
+		)
+		(instances
+			(project "dot_flipper"
+				(path "/0bc58c06-a81b-4af2-a64d-012bfae59e89"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 226.06 213.36 0)
 		(unit 1)
@@ -12751,72 +12624,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 127 250.19 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cece0374-a891-4fb0-a094-01c98794f6ee")
-		(property "Reference" "J7"
-			(at 137.414 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC_o"
-			(at 135.382 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
-			(at 127 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 127 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b8f1bd5f-9350-47ad-bd8f-4be01c68fc42")
-		)
-		(instances
-			(project "dot_flipper"
-				(path "/0bc58c06-a81b-4af2-a64d-012bfae59e89"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 232.41 265.43 0)
 		(unit 1)
@@ -12877,6 +12684,70 @@
 			(project "dot_flipper"
 				(path "/0bc58c06-a81b-4af2-a64d-012bfae59e89"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 92.71 320.04 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0bd7d5a-c024-4891-9d7a-d5a4a293f623")
+		(property "Reference" "FID3"
+			(at 95.25 318.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 95.25 321.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1.5mm"
+			(at 92.71 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 92.71 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "dot_flipper"
+				(path "/0bc58c06-a81b-4af2-a64d-012bfae59e89"
+					(reference "FID3")
 					(unit 1)
 				)
 			)
@@ -13515,7 +13386,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 127 252.73 0)
+		(at 69.85 255.27 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13524,7 +13395,7 @@
 		(dnp no)
 		(uuid "dd632135-2b81-4cf7-988f-83c075af48dc")
 		(property "Reference" "J8"
-			(at 137.414 252.73 0)
+			(at 80.264 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13532,7 +13403,7 @@
 			)
 		)
 		(property "Value" "SEROUT"
-			(at 135.382 252.73 0)
+			(at 78.232 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13540,8 +13411,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
-			(at 127 252.73 0)
+		(property "Footprint" "Arans_Footprints:small_pad"
+			(at 69.85 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13550,7 +13421,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 252.73 0)
+			(at 69.85 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13559,7 +13430,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 127 252.73 0)
+			(at 69.85 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14111,73 +13982,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 266.7 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eaf3976d-7802-47b4-952d-4d8bcc266b5b")
-		(property "Reference" "#PWR041"
-			(at 111.76 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 111.76 271.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "95d6a693-da7c-43a2-8292-5901dd103a1c")
-		)
-		(instances
-			(project "dot_flipper"
-				(path "/0bc58c06-a81b-4af2-a64d-012bfae59e89"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 279.4 205.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14419,7 +14223,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 127 260.35 0)
+		(at 69.85 262.89 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14428,7 +14232,7 @@
 		(dnp no)
 		(uuid "f41704b7-222d-40b2-b4cd-164f9b4c4cd0")
 		(property "Reference" "J11"
-			(at 137.414 260.35 0)
+			(at 80.264 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14436,7 +14240,7 @@
 			)
 		)
 		(property "Value" "SLEEP_o"
-			(at 135.382 260.35 0)
+			(at 78.232 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14444,8 +14248,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
-			(at 127 260.35 0)
+		(property "Footprint" "Arans_Footprints:small_pad"
+			(at 69.85 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14454,7 +14258,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 260.35 0)
+			(at 69.85 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14463,7 +14267,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 127 260.35 0)
+			(at 69.85 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14675,72 +14479,6 @@
 			(project "dot_flipper"
 				(path "/0bc58c06-a81b-4af2-a64d-012bfae59e89"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 38.1 313.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc27b664-2886-43c3-8eb7-dd1e57523b1f")
-		(property "Reference" "#PWR047"
-			(at 38.1 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 38.1 318.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 313.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 313.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 313.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "67242ad1-42d5-4033-b524-d8867f459ee4")
-		)
-		(instances
-			(project "dot_flipper"
-				(path "/0bc58c06-a81b-4af2-a64d-012bfae59e89"
-					(reference "#PWR047")
 					(unit 1)
 				)
 			)

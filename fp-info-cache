@@ -1,4 +1,4 @@
-24676122950680011
+24679605398137420
 Arans_Footprints
 KSC701G LFS
 
@@ -41,6 +41,20 @@ VCNL3020
 0
 10
 10
+Arans_Footprints
+salt_shaker
+
+
+0
+0
+0
+Arans_Footprints
+small_pad
+
+
+0
+1
+1
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
